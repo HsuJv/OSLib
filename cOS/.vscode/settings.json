@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "**/*.s": true,
+        "**/*.d": true,
+        "**/*.bin": true,
+        "**/system": true
+    },
+    "search.exclude": {
+        "**/*.s": true,
+        "**/*.d": true,
+        "**/*.bin": true,
+        "**/system": true
+    },
+    "files.associations": {
+        "**/*.h": "c",
+        "**/*.c": "c",
+        "**/*.sx": "asm",
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format"
+}

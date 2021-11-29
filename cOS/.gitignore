@@ -1,0 +1,8 @@
+*.bin
+*.i
+*.o
+bin/
+boot.img
+GPATH
+GRTAGS
+GTAGS

@@ -1,0 +1,19 @@
+#For QEMU
+sudo apt install ninja-build
+sudo apt install libglib2.0-dev
+sudo apt install cgcc
+sudo apt install libpixman-1-dev
+#sudo apt install libsdl1.2-dev
+
+#For vscode
+sudo apt install imwheel
+
+#For boot
+sudo apt install nasm
+sudo apt install libisoburn-dev
+sudo apt install xorriso
+cargo install bootimage
+
+#rustup
+#rustup component add llvm-tools-previewu
+rustup toolchain install nightly
